@@ -652,21 +652,6 @@
             ]
         },
         {
-            "outputFile": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/4dbd37a5f072f97a0625b764031676ac/res/values-xlarge-v4/values-xlarge-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,126,197,267,337,405",
-                        "endColumns": "70,70,69,69,67,67",
-                        "endOffsets": "121,192,262,332,400,468"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/values-h480dp-land-v13_values-h480dp-land-v13.arsc.flat",
             "map": [
                 {
@@ -677,6 +662,21 @@
                         "startOffsets": "55,114,170,226,293,358,413,478",
                         "endColumns": "58,55,55,66,64,54,64,68",
                         "endOffsets": "109,165,221,288,353,408,473,542"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/4dbd37a5f072f97a0625b764031676ac/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,126,197,267,337,405",
+                        "endColumns": "70,70,69,69,67,67",
+                        "endOffsets": "121,192,262,332,400,468"
                     }
                 }
             ]

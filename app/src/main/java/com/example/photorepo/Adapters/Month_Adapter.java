@@ -18,7 +18,6 @@ public class Month_Adapter extends BaseAdapter {
             R.drawable.aw,
             R.drawable.cam,
             R.drawable.lion,
-            R.drawable.n,
             R.drawable.na,
             R.drawable.ted,
             R.drawable.wild

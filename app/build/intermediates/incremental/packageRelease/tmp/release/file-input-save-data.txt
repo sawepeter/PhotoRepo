@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Aug 16 02:32:07 EAT 2019
+0.baseType=DIRECTORY
+0.base=/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/dex/release/mergeDexRelease/out
+0.path=classes.dex
+0.set=DEX
+count=1
