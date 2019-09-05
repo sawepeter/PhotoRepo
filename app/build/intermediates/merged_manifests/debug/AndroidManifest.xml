@@ -18,8 +18,8 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.photorepo.ClientDashboard" />
         <activity android:name="com.example.photorepo.PhotographerDashboard" />
         <activity android:name="com.example.photorepo.Auth.Login" />
         <activity
@@ -40,10 +40,6 @@
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="com.example.photorepo.lifecycle-process"
             android:exported="false"
-            android:multiprocess="true" />
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.example.photorepo.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>
 
