@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.GridView;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.example.photorepo.Acitivities.FullImage;
@@ -22,6 +23,7 @@ public class Home extends AppCompatActivity {
 
     Button btn_login,btn_sign_up;
     final Context context = this;
+    private Spinner spinner1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

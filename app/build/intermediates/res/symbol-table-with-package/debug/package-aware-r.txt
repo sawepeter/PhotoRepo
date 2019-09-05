@@ -46,6 +46,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array choose_user_type
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1648,6 +1649,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinner1
 id split_action_bar
 id spread
 id spread_inside
@@ -1905,6 +1907,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string user_prompt
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
