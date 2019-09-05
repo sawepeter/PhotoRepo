@@ -3,17 +3,13 @@ package com.example.photorepo;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.GridView;
-import android.widget.Spinner;
-import android.widget.Toast;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.photorepo.Activities.FullImage;
 import com.example.photorepo.Adapters.ImageAdapter;
 import com.example.photorepo.Adapters.Month_Adapter;
