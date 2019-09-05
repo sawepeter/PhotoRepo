@@ -30,6 +30,7 @@ public class Home extends AppCompatActivity {
     Button btn_login,btn_sign_up;
     final Context context = this;
     private Spinner spinner1;
+    String[] _userType = {"Choose a User Type","Client","Photography"};
 
 
     @Override
