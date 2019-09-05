@@ -1,4 +1,4 @@
-package com.example.photorepo.Acitivities;
+package com.example.photorepo.Activities;
 
 import android.app.Activity;
 import android.content.Intent;

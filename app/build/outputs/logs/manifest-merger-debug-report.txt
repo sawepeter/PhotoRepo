@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-30:12
 MERGED from [com.google.android.material:material:1.1.0-alpha09] /home/devsawe/.gradle/caches/transforms-2/files-2.1/f5859853b5ab44fa4f8b92053d65aa0b/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/4dbd37a5f072f97a0625b764031676ac/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/devsawe/.gradle/caches/transforms-2/files-2.1/c4c17e37171b65cdba80e8cc60c14c3c/AndroidManifest.xml:2:1-11:12
@@ -14,6 +14,7 @@ MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /home/devsawe/.g
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/e44f0d7f0ec38615406bf8546e2869d7/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/fde65278550308460ec46a91ecc37038/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /home/devsawe/.gradle/caches/transforms-2/files-2.1/e9d29231a9b2a3a6fdfd732be6d9cff6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/736d960c26f4232db941f2962f0877fa/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.fragment:fragment:1.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/330bc78ad0730e018736af5afa949c26/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/4ee10c50a1786802b4dfc1131e2d5a3a/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/5d0cac9653485a8451ed2f4e095c19df/AndroidManifest.xml:17:1-24:12
@@ -22,40 +23,46 @@ MERGED from [androidx.customview:customview:1.0.0] /home/devsawe/.gradle/caches/
 MERGED from [androidx.loader:loader:1.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/6e5a9b11aaf992509dda1cef522751c3/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/da41d575826761289620005ba70ba4fc/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.1.0-rc02] /home/devsawe/.gradle/caches/transforms-2/files-2.1/b60374e5b28f13656b7e3faa46b0416a/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/03e294653c2b2f33a4707c7fb1fa2bee/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a88800a1d2b1d725d62617595152792c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/7ce6671b7eb787e95c80df296b6fd695/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/2d06eca0b3431cbd57543c0d8ac8e4bf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/f102016fe3e84ab5e0b31828bef4aa49/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/e3c91d57bfac1c52cf7d7d94ac947b96/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/3a89bee435bd26b7ee23243e4904874b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/c9b283a276da1624533f44d096e93591/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/e83832f9287425fa217c04f1e10de4b1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/0c9aa5e47f62230952824e7e6de18896/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/15651da2e90587389c46b72703f5ec61/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/aee99d93a64478ea4eaf38cf8c2dcf2a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/3a89bee435bd26b7ee23243e4904874b/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/676e07fc4c2a6b6a0a4cf8a11dfbcc6d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/0c0ae8b72fa0acb7a10738b607873ffa/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/c0f1f5e51b6e2cc34a1e915f83d7d28e/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/562a13c38e0896d0c9f8844bb3dcf8fa/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml
 		INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml
-		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml
-		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:5:5-28:19
 MERGED from [com.google.android.material:material:1.1.0-alpha09] /home/devsawe/.gradle/caches/transforms-2/files-2.1/f5859853b5ab44fa4f8b92053d65aa0b/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0-alpha09] /home/devsawe/.gradle/caches/transforms-2/files-2.1/f5859853b5ab44fa4f8b92053d65aa0b/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/devsawe/.gradle/caches/transforms-2/files-2.1/c4c17e37171b65cdba80e8cc60c14c3c/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/devsawe/.gradle/caches/transforms-2/files-2.1/c4c17e37171b65cdba80e8cc60c14c3c/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/736d960c26f4232db941f2962f0877fa/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/736d960c26f4232db941f2962f0877fa/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.core:core:1.1.0-rc02] /home/devsawe/.gradle/caches/transforms-2/files-2.1/b60374e5b28f13656b7e3faa46b0416a/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0-rc02] /home/devsawe/.gradle/caches/transforms-2/files-2.1/b60374e5b28f13656b7e3faa46b0416a/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/03e294653c2b2f33a4707c7fb1fa2bee/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/03e294653c2b2f33a4707c7fb1fa2bee/AndroidManifest.xml:22:5-28:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/0c9aa5e47f62230952824e7e6de18896/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/0c9aa5e47f62230952824e7e6de18896/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
@@ -63,41 +70,55 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /home/
 	android:supportsRtl
 		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:9:9-41
 	android:hardwareAccelerated
-		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:9:9-44
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:7:9-44
 	android:roundIcon
-		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:11:9-54
 	android:largeHeap
-		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:11:9-33
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:10:9-33
 	android:icon
-		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
 		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.example.photorepo.Auth.Login
+ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:14:9-57
+	android:name
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:14:19-45
+activity#com.example.photorepo.ui.login.LoginActivity
+ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:15:9-17:60
+	android:label
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:17:13-57
+	android:name
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:16:13-51
+activity#com.example.photorepo.Auth.SignUp
+ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:18:9-49
+	android:name
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:18:19-46
 activity#com.example.photorepo.Home
-ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:14:9-51
+ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:19:9-42
 	android:name
-		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:14:19-39
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:19:19-39
 activity#com.example.photorepo.MainActivity
-ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:20:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:19:27-74
-activity#com.example.photorepo.Acitivities.FullImage
-ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:23:9-68
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.example.photorepo.Activities.FullImage
+ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:27:9-58
 	android:name
-		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:23:19-56
+		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml:27:19-55
 uses-sdk
 INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml
@@ -122,6 +143,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /home/devsawe/.g
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/fde65278550308460ec46a91ecc37038/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /home/devsawe/.gradle/caches/transforms-2/files-2.1/e9d29231a9b2a3a6fdfd732be6d9cff6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /home/devsawe/.gradle/caches/transforms-2/files-2.1/e9d29231a9b2a3a6fdfd732be6d9cff6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/736d960c26f4232db941f2962f0877fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/736d960c26f4232db941f2962f0877fa/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/330bc78ad0730e018736af5afa949c26/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/330bc78ad0730e018736af5afa949c26/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/4ee10c50a1786802b4dfc1131e2d5a3a/AndroidManifest.xml:20:5-44
@@ -138,24 +161,28 @@ MERGED from [androidx.activity:activity:1.0.0-rc01] /home/devsawe/.gradle/caches
 MERGED from [androidx.activity:activity:1.0.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/da41d575826761289620005ba70ba4fc/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0-rc02] /home/devsawe/.gradle/caches/transforms-2/files-2.1/b60374e5b28f13656b7e3faa46b0416a/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0-rc02] /home/devsawe/.gradle/caches/transforms-2/files-2.1/b60374e5b28f13656b7e3faa46b0416a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/03e294653c2b2f33a4707c7fb1fa2bee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/03e294653c2b2f33a4707c7fb1fa2bee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a88800a1d2b1d725d62617595152792c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a88800a1d2b1d725d62617595152792c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/7ce6671b7eb787e95c80df296b6fd695/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/7ce6671b7eb787e95c80df296b6fd695/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/2d06eca0b3431cbd57543c0d8ac8e4bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/2d06eca0b3431cbd57543c0d8ac8e4bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/f102016fe3e84ab5e0b31828bef4aa49/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/f102016fe3e84ab5e0b31828bef4aa49/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/e3c91d57bfac1c52cf7d7d94ac947b96/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/e3c91d57bfac1c52cf7d7d94ac947b96/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/3a89bee435bd26b7ee23243e4904874b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/3a89bee435bd26b7ee23243e4904874b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/c9b283a276da1624533f44d096e93591/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/c9b283a276da1624533f44d096e93591/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/e83832f9287425fa217c04f1e10de4b1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/e83832f9287425fa217c04f1e10de4b1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/0c9aa5e47f62230952824e7e6de18896/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/0c9aa5e47f62230952824e7e6de18896/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/15651da2e90587389c46b72703f5ec61/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/15651da2e90587389c46b72703f5ec61/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/aee99d93a64478ea4eaf38cf8c2dcf2a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/aee99d93a64478ea4eaf38cf8c2dcf2a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/3a89bee435bd26b7ee23243e4904874b/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /home/devsawe/.gradle/caches/transforms-2/files-2.1/3a89bee435bd26b7ee23243e4904874b/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/676e07fc4c2a6b6a0a4cf8a11dfbcc6d/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/676e07fc4c2a6b6a0a4cf8a11dfbcc6d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/0c0ae8b72fa0acb7a10738b607873ffa/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/0c0ae8b72fa0acb7a10738b607873ffa/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/c0f1f5e51b6e2cc34a1e915f83d7d28e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/c0f1f5e51b6e2cc34a1e915f83d7d28e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/562a13c38e0896d0c9f8844bb3dcf8fa/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/562a13c38e0896d0c9f8844bb3dcf8fa/AndroidManifest.xml:20:5-44
 INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml
 INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -166,3 +193,13 @@ INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/Android
 		INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml
 		ADDED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml
 		INJECTED from /home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/03e294653c2b2f33a4707c7fb1fa2bee/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/03e294653c2b2f33a4707c7fb1fa2bee/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/03e294653c2b2f33a4707c7fb1fa2bee/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/03e294653c2b2f33a4707c7fb1fa2bee/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/devsawe/.gradle/caches/transforms-2/files-2.1/03e294653c2b2f33a4707c7fb1fa2bee/AndroidManifest.xml:24:13-79

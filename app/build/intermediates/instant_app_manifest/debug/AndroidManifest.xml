@@ -19,8 +19,12 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.photorepo.Auth.Login" />
+        <activity
+            android:name="com.example.photorepo.ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name="com.example.photorepo.Auth.SignUp" />
         <activity android:name="com.example.photorepo.Home" />
         <activity android:name="com.example.photorepo.MainActivity" >
             <intent-filter>
@@ -28,13 +32,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!-- FullImageActivity -->
-        <activity android:name="com.example.photorepo.Acitivities.FullImage" />
+        </activity> <!-- FullImageActivity -->
+        <activity android:name="com.example.photorepo.Activities.FullImage" />
 
         <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.example.photorepo.com.android.tools.ir.server.InstantRunContentProvider"
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.photorepo.lifecycle-process"
+            android:exported="false"
             android:multiprocess="true" />
     </application>
 
