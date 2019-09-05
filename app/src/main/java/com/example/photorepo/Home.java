@@ -25,7 +25,7 @@ import com.example.photorepo.Adapters.Month_Adapter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Home extends AppCompatActivity {
+public class Home extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     Button btn_login,btn_sign_up;
     final Context context = this;
@@ -41,6 +41,15 @@ public class Home extends AppCompatActivity {
 
         btn_login = findViewById(R.id.btn_login);
         btn_sign_up = findViewById(R.id.btn_sign_up);
+        spinner1 = findViewById(R.id.spinner1);
+        spinner1.setOnItemSelectedListener(this);
+
+        //creating the ArrayAdapter instance having the user type
+        ArrayAdapter dataAdapter = new ArrayAdapter(this,android.R.layout.simple_spinner_item,_userType);
+        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        //setting the ArrayAdapter data on the spinner
+        spinner1.setAdapter(dataAdapter);
         
 
         GridView gridView = findViewById(R.id.grid_recent);
@@ -161,4 +170,13 @@ public class Home extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
+
+    }
 }
