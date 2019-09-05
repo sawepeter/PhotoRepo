@@ -20,6 +20,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.photorepo.PhotographerDashboard" />
         <activity android:name="com.example.photorepo.Auth.Login" />
         <activity
             android:name="com.example.photorepo.ui.login.LoginActivity"
