@@ -17,6 +17,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.photorepo.Activities.FullImage;
 import com.example.photorepo.Adapters.ImageAdapter;
 import com.example.photorepo.Adapters.Month_Adapter;
+import com.example.photorepo.Auth.Login;
+import com.example.photorepo.Auth.SignUp;
 
 public class Home extends AppCompatActivity {
 
@@ -43,14 +45,16 @@ public class Home extends AppCompatActivity {
         btn_sign_up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                RegisterDialog();
+               Intent intent = new Intent(Home.this, SignUp.class);
+               startActivity(intent);
             }
         });
 
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                LoginDialog();
+               Intent intent = new Intent(Home.this, Login.class);
+               startActivity(intent);
             }
         });
 
