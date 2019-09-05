@@ -1,10 +1,3 @@
 <resources>
     <string name="app_name">PhotoRepo</string>
-    <string name="user_prompt">Choose a User</string>
-
-    <string-array name="choose_user_type">
-        <item>Choose a User</item>
-        <item>Client</item>
-        <item>Photographer</item>
-    </string-array>
 </resources>

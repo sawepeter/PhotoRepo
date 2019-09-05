@@ -1,5 +1,6 @@
 package com.example.photorepo;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +8,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -20,30 +22,21 @@ import com.example.photorepo.Acitivities.FullImage;
 import com.example.photorepo.Adapters.ImageAdapter;
 import com.example.photorepo.Adapters.Month_Adapter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Home extends AppCompatActivity {
 
     Button btn_login,btn_sign_up;
     final Context context = this;
     private Spinner spinner1;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        spinner1 = findViewById(R.id.spinner1);
-
-        //spinner listener
-        spinner1.setOnItemClickListener((AdapterView.OnItemClickListener) this);
-
-        //creating adapter for spinner
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
-
-        //Drop down layout style - list view with radio button
-        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-        //attaching data adapter to spinner
-        spinner1.setAdapter(dataAdapter);
 
         btn_login = findViewById(R.id.btn_login);
         btn_sign_up = findViewById(R.id.btn_sign_up);
@@ -125,8 +118,6 @@ public class Home extends AppCompatActivity {
             }
         });
 
-
-
         dialog.setView(login_layout);
         dialog.show();
     }
@@ -167,4 +158,6 @@ public class Home extends AppCompatActivity {
         dialog.setView(register_layout);
         dialog.show();
     }
+
+
 }
