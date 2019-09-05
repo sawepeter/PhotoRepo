@@ -52,7 +52,7 @@ public class ClientAdapter extends BaseAdapter {
         ImageView imageView = new ImageView(mContext);
         imageView.setImageResource(ImageIds[i]);
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageView.setLayoutParams(new GridView.LayoutParams(40,50));
+        imageView.setLayoutParams(new GridView.LayoutParams(70,70));
         return imageView;
     }
 }

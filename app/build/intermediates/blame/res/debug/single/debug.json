@@ -40,12 +40,12 @@
         "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/4dbd37a5f072f97a0625b764031676ac/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/4dbd37a5f072f97a0625b764031676ac/res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/interpolator-v21_mtrl_fast_out_linear_in.xml.flat",
         "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/f5859853b5ab44fa4f8b92053d65aa0b/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/4dbd37a5f072f97a0625b764031676ac/res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -116,28 +116,28 @@
         "source": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/res/layout/activity_home.xml"
     },
     {
-        "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/4dbd37a5f072f97a0625b764031676ac/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/color_mtrl_on_primary_emphasis_high_type.xml.flat",
+        "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/f5859853b5ab44fa4f8b92053d65aa0b/res/color/mtrl_on_primary_emphasis_high_type.xml"
     },
     {
         "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/4dbd37a5f072f97a0625b764031676ac/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/color_mtrl_on_primary_emphasis_high_type.xml.flat",
-        "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/f5859853b5ab44fa4f8b92053d65aa0b/res/color/mtrl_on_primary_emphasis_high_type.xml"
+        "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/4dbd37a5f072f97a0625b764031676ac/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/drawable_design_bottom_navigation_item_background.xml.flat",
         "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/f5859853b5ab44fa4f8b92053d65aa0b/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/layout_activity_download.xml.flat",
-        "source": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/res/layout/activity_download.xml"
-    },
-    {
         "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
         "source": "/home/devsawe/.gradle/caches/transforms-2/files-2.1/b60374e5b28f13656b7e3faa46b0416a/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/layout_activity_download.xml.flat",
+        "source": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/src/main/res/layout/activity_download.xml"
     },
     {
         "merged": "/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/res/merged/debug/layout_mtrl_picker_text_input_date.xml.flat",
