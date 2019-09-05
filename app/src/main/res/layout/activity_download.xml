@@ -113,7 +113,7 @@
 
 
                     <Button
-                        android:id="@+id/card_view_image"
+                        android:id="@+id/btn_download"
                         android:layout_width="match_parent"
                         android:background="@drawable/shape_upload"
                         android:text="Download"

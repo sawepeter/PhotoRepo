@@ -1,4 +1,4 @@
-#Fri Sep 06 00:57:06 EAT 2019
+#Fri Sep 06 02:23:55 EAT 2019
 base.0=/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/transforms/dexMerger/debug/2
 path.0=classes.dex
 renamed.0=classes.dex

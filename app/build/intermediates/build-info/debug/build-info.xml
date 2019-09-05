@@ -5,33 +5,60 @@
     build-mode="COLD"
     density="hdpi"
     format="10"
+    ir-eligibility="CLASS_ADDED"
     plugin-version="3.4.2"
-    timestamp="1567721015373"
+    timestamp="1567725833623"
     token="1046510132014207580"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="292" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="61" />
     <task
         name="verifier"
-        duration="0" />
+        duration="88" />
 
+    <artifact
+        location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
     <artifact
         location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1567720622350"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1567725617125"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
@@ -45,10 +72,10 @@
             location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -57,13 +84,13 @@
             location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
+            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -71,8 +98,36 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1567721015373"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1567725833623"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
         <artifact
             location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />

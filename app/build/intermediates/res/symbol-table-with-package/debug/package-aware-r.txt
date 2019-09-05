@@ -1354,11 +1354,14 @@ drawable ic_lock_black_24dp
 drawable ic_mail_24px
 drawable ic_menu_arrow_down_black_24dp
 drawable ic_menu_arrow_up_black_24dp
+drawable ic_message_black_24dp
+drawable ic_more_vert_black_24dp
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_person_24px
+drawable ic_upload
 drawable ka
 drawable lion
 drawable mtrl_dialog_background
@@ -1390,6 +1393,7 @@ drawable ra
 drawable ras
 drawable shape_login_button
 drawable shape_register_button
+drawable shape_upload
 drawable ted
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1471,10 +1475,13 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_download
 id btn_login
 id btn_sign_up
 id buttonPanel
 id cancel_button
+id card_view_image
+id card_view_image_title
 id center
 id center_horizontal
 id center_vertical
@@ -1521,6 +1528,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id fade
 id fill
 id fill_horizontal
@@ -1590,6 +1598,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id my_pictures
 id navigation_header_container
 id never
 id noScroll
@@ -1765,9 +1774,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_client_dashboard
+layout activity_download
 layout activity_home
 layout activity_login
 layout activity_main
+layout activity_mpesa
 layout activity_photographer_dashboard
 layout activity_sign_up
 layout custom_dialog
