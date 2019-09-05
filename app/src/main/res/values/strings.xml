@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PhotoRepo</string>
+
+    <string-array name="_UserTypeArrays">
+        <item>Choose User Type</item>
+        <item>Client</item>
+        <item>Photographer</item>
+    </string-array>
 </resources>

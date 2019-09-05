@@ -1,14 +1,9 @@
 package com.example.photorepo;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -18,6 +13,9 @@ import android.widget.GridView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.photorepo.Acitivities.FullImage;
 import com.example.photorepo.Adapters.ImageAdapter;
 import com.example.photorepo.Adapters.Month_Adapter;
@@ -25,13 +23,10 @@ import com.example.photorepo.Adapters.Month_Adapter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Home extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class Home extends AppCompatActivity {
 
     Button btn_login,btn_sign_up;
     final Context context = this;
-    private Spinner spinner1;
-    String[] _userType = {"Choose a User Type","Client","Photography"};
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,16 +36,7 @@ public class Home extends AppCompatActivity implements AdapterView.OnItemSelecte
 
         btn_login = findViewById(R.id.btn_login);
         btn_sign_up = findViewById(R.id.btn_sign_up);
-        spinner1 = findViewById(R.id.spinner1);
-        spinner1.setOnItemSelectedListener(this);
 
-        //creating the ArrayAdapter instance having the user type
-        ArrayAdapter dataAdapter = new ArrayAdapter(this,android.R.layout.simple_spinner_item,_userType);
-        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-        //setting the ArrayAdapter data on the spinner
-        spinner1.setAdapter(dataAdapter);
-        
 
         GridView gridView = findViewById(R.id.grid_recent);
         GridView grid_month = findViewById(R.id.grid_month);
@@ -140,12 +126,28 @@ public class Home extends AppCompatActivity implements AdapterView.OnItemSelecte
         LayoutInflater inflater = LayoutInflater.from(this);
         View register_layout = inflater.inflate(R.layout.signup_layout,null);
 
+
         //getting the views of the particular views contained in the custom layout
         final EditText edt_email = register_layout.findViewById(R.id.edt_email);
         final  EditText first_name = register_layout.findViewById(R.id.first_name);
         final EditText last_name = register_layout.findViewById(R.id.last_name);
         final  EditText Password = register_layout.findViewById(R.id.Password);
         final Button btnregister = register_layout.findViewById(R.id.dialog_btnRegister);
+        final Spinner spinner1 = findViewById(R.id.spinner1);
+
+        spinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                Toast.makeText(adapterView.getContext(),
+                        "Selected : " + adapterView.getItemAtPosition(i).toString(),
+                        Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
 
         //get the edit_text and converted them into strings
         String email = edt_email.getText().toString();
@@ -162,21 +164,8 @@ public class Home extends AppCompatActivity implements AdapterView.OnItemSelecte
         });
 
 
-
-
-
         dialog.setView(register_layout);
         dialog.show();
     }
 
-
-    @Override
-    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-
-    }
-
-    @Override
-    public void onNothingSelected(AdapterView<?> adapterView) {
-
-    }
 }
