@@ -6,7 +6,7 @@
     density="hdpi"
     format="10"
     plugin-version="3.4.2"
-    timestamp="1567726699173"
+    timestamp="1567726970681"
     token="1046510132014207580"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1567726699173"
+        timestamp="1567726970681"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/devsawe/AndroidStudioProjects/PhotoRepo/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
