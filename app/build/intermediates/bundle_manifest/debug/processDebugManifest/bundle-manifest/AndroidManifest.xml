@@ -19,6 +19,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.photorepo.Activities.Download" />
         <activity android:name="com.example.photorepo.ClientDashboard" />
         <activity android:name="com.example.photorepo.PhotographerDashboard" />
         <activity android:name="com.example.photorepo.Auth.Login" />
