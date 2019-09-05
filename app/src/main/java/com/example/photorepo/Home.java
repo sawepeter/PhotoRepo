@@ -7,9 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.GridView;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.photorepo.Activities.FullImage;
 import com.example.photorepo.Adapters.ImageAdapter;
 import com.example.photorepo.Adapters.Month_Adapter;
