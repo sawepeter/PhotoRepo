@@ -101,7 +101,8 @@ public class Home extends AppCompatActivity {
         String pass = Password.getText().toString();
 
         //set onclick listener
-        btn_login.setOnClickListener(new View.OnClickListener() {
+        btn_login
+                .setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
